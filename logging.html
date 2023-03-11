@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Logging</title>
+    <script src="https://kit.fontawesome.com/055a897ddb.js" crossorigin="anonymous"></script>
+    <style>
+      nav {
+        display: flex;
+        justify-content: space-between;
+      }
+      nav a {
+        text-decoration: none;
+        color: black;
+        margin-right: 10px;
+      }
+      .logging-container {
+        display: flex;
+        justify-content: center;
+      }
+      .logging-form {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+      }
+      .logging-form input {
+        margin-top: 1em;
+        font-size: 1.5em;
+        padding: 5px 10px;
+      }
+      .logging-form input[type="submit"] {
+        background-color: red;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-weight: 700;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div>
+          <a href="">HOME</a>
+          <a href="">BLOG</a>
+          <a href="">ABOUT</a>
+        </div>
+        <div>
+          <a href=""><i class="fa-solid fa-user"></i></a>
+          <a href=""><i class="fa-solid fa-right-from-bracket"></i></a>
+        </div>
+      </nav>
+    </header>
+    <section class="logging-container">
+      <form class="logging-form">
+        <h2>Please Logging</h2>
+        <input type="email" name="" id="" placeholder="Your Email" required />
+        <input type="password" name="" id="" placeholder="Your Password" required />
+        <input type="submit" value="Logging" />
+      </form>
+    </section>
+  </body>
+</html>
